@@ -10,7 +10,7 @@ greenUpper = (60 + sensitivity, 255, 255)
 
 
 def main():
-    vs = VideoStream(src=0).start()
+    vs = VideoStream(src=0).start() # www.pyimagesearch.com was referenced
     time.sleep(2.0)
     
     while(True):
